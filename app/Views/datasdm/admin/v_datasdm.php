@@ -417,7 +417,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <?php if (session()->getFlashdata('msg')) : ?>
       <?php if (session()->getFlashdata('success')) : ?>
         toastr.success('<?= session()->getFlashdata('msg'); ?>', 'Success')
-      <?php elseif (session()->getFlashdata('success')) : ?>
+      <?php else : ?>
         toastr.error('<?= session()->getFlashdata('msg'); ?>', 'Error')
       <?php endif; ?>
     <?php endif ?>
