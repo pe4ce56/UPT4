@@ -1,0 +1,675 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 1000px;
+
+}
+
+
+
+#home {
+  position: relative; 
+  width: 100%;
+  min-height: 120vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#home .carousel-inner.slide .carousel .container.judul .lead {
+  color: #53A0D4;
+  margin-top: -250px;
+  margin-left: 180px;
+   font-weight: bold;
+}
+#home .carousel-inner.slide .carousel .container.judul .display-4 {
+color: #2E3192; 
+font-weight: 750;  
+font-size: 80px;
+margin-top: -10px;
+}
+#home .carousel-inner.slide .carousel .container.judul .paraf {
+margin-top: -10px;
+}
+
+
+
+.sec {
+  background: #fff;
+  /* padding: 100px; */
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sec .content {
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.services {
+  position: relative;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 2px; */
+  margin-top: 40px;
+  margin: 0 auto;
+  /* margin-left: 140px; */
+  /* margin-right: 100px; */
+
+}
+
+.services .box {
+  width: 100%;
+  /* margin: 0 auto; */
+  background: #fff;
+  padding: 20px;
+  /* border: 1px solid black; */
+  /* box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25); */
+}
+
+.services .box:hover,
+.services .box .iconBx .fa-line-chart:hover {
+  background: #2E3192;
+  color: yellow
+}
+
+.services .box .iconBx {
+  margin-top: 25px;
+}
+
+.services .box .iconBx img {
+  max-width: 70px;
+  margin-bottom: 15px;
+}
+
+.services .box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.services .box p {
+  font-size: 11px;
+}
+
+.services .box:hover h2,
+.services .box:hover p {
+  color: rgba(255, 255, 255, 1);
+}
+
+
+
+.stats {
+  margin-top: -490px;
+}
+
+.biru {
+  background: #2E3192;
+  height: 440px;
+  width: 100%;
+}
+
+.stats .biru .sijawara {
+  position: relative;
+  margin-top: 390px;
+  margin-left: 140px;
+  padding-top: 110px;
+}
+
+.stats .biru .sijawara a {
+  color: white;
+  font-weight: 700px;
+  font-size: 40px;
+
+}
+
+.stats .biru .sijawara img {
+  position: relative;
+  max-width: 40px;
+  margin-left: 420px;
+  margin-top: -20px;
+
+}
+
+.footer {
+  background: #23267B;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 3px;
+  padding-bottom: 4px;
+
+  z-index: 999;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 13px;
+  padding-top: 15px;
+
+}
+
+
+
+.carousel-inner {
+  height: 300px;
+}
+
+.judul {
+  margin-top: 200px;
+}
+
+ .navbar-brand .d-flex.align-items-center img
+  {
+  width:60px ;
+  height: 85px;
+  }
+
+  h6 .brand-text.font-weight-primary p
+{
+  font-size: 24px; 
+  color :#2E3192; 
+  font-weight: 700; 
+  text-decoration: none; 
+  font-size: 1.5em;
+  letter-spacing: 0.5px; 
+  transition: 0.6s;
+}
+#services .container.services.row
+  {
+    padding: 140px;
+  }
+#services .container.services.row .col-lg-4
+{
+  padding: 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25);
+}
+  /*boxkuning*/
+.koneng {
+  margin-top: 300px;
+  margin-bottom: 400px;
+/*  margin-left: -40px;*/
+}
+
+.koneng .content {
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.kuning {
+  position: relative;
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.kuning .bok {
+  width: 900px;
+  height: 28vh;
+  margin: 0 auto;
+  margin-top: -300px;
+  background: yellow;
+  padding: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+
+}
+
+.kuning .bok .iconBx {
+  width: 880px;
+  height: 35vh;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  margin-left: -35px;
+  margin-right: 40px;
+}
+
+.kuning .bok .iconBx ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.kuning .bok .iconBx ul li {
+  position: relative;
+  list-style: none;
+
+}
+
+.kuning .bok .iconBx ul li .kantor {
+  margin-top: 40px;
+  margin-left: -55px;
+  margin-bottom: 40px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.kuning .bok .iconBx ul li .call {
+  margin-top: 40px;
+  margin-left: -10px;
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-weight: 700;
+
+}
+
+.kuning .bok .iconBx ul li .contact {
+
+  margin-top: 40px;
+  margin-left: -50px;
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-weight: 700;
+
+}
+
+
+.kuning .bok .iconBx ul li .alamat {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 6px;
+  margin-top: 13px;
+  margin-left: 40px;
+  font-weight: 500;
+}
+
+.kuning .bok .iconBx ul li .nomor {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 6px;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-right: 30px;
+  font-weight: 500;
+}
+
+.kuning .bok .iconBx ul li .email {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 6px;
+  margin-top: 13px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+
+.kuning .bok .iconBx ul li .fa-map-o
+{
+  margin-bottom: 15px;
+  margin-left: 50px;
+  margin-right: -25px;
+  font-size: 65px;
+
+}.kuning .bok .iconBx ul li .fa-phone
+{
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 70px;
+}.kuning .bok .iconBx ul li .fa-envelope-o
+{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 65px;
+}
+/**/
+.dropdown-item{
+ overflow: auto;
+}
+
+
+/*responsive*/
+@media (max-width: 576px) {
+
+  nav{
+    height: 50px;
+  }
+    .navbar-toggler.order-1{
+  margin-top: -45px;
+  }
+
+
+ #navbarCollapse
+  {
+    width: 100%;
+    text-align: center;
+/*    overflow: auto;*/
+    background: #fff;
+
+  }
+   #navbarCollapse ul
+   {
+    font-size: 15px;
+    margin-top: 10px;
+   }
+    #navbarCollapse ul li a
+    {
+    color: black;
+   }
+   #navbarCollapse.active ul
+  {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    padding-top: 20px;
+  }
+ #navbarCollapse.active ul a
+  {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  /*banner*/
+  #home {
+  position: relative;
+  width: 100%;
+  min-height: 120vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+  }
+  #home .carousel-inner.slide .carousel .container.judul .lead {
+  color: #53A0D4;
+  margin-top: -70px;
+  margin-left: -0px;
+  font-weight: bold;
+  font-size: 10px;
+  }
+  #home .carousel-inner.slide .carousel .container.judul .display-4 {
+  color: #2E3192; 
+  font-weight: 750;  
+  font-size: 20px;
+  margin-top: -10px;
+  }
+  #home .carousel-inner.slide .carousel .container.judul .paraf {
+  margin-top: -25px;
+  font-size: 10px;
+  }
+  /**/
+  /*boxkuning*/
+.koneng {
+  position: relative;
+  margin-top: 350px;
+  margin-bottom: -250px;
+  margin-left: -80px;
+}
+
+.koneng .content {
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.kuning {
+  position: relative;
+  max-width: 100%;
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+}
+
+.kuning .bok {
+  width: 440px;
+  height: 100px;
+  margin-top: -300px;
+  background: yellow;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+
+}
+
+.kuning .bok .iconBx {
+  width: 440px;
+  height: 100px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  margin-left: -20px;
+  margin-right: 40px;
+/*  border: 1px solid;*/
+}
+
+.kuning .bok .iconBx ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.kuning .bok .iconBx ul li {
+  position: relative;
+  list-style: none;
+
+}
+
+
+.kuning .bok .iconBx ul li .fa-map-o
+{
+  margin-top: 20px;
+  margin-left: 5px; 
+  margin-right: 20px;
+ font-size: 35px;
+
+}
+.kuning .bok .iconBx ul li .fa-phone
+{
+   margin-top: 20px;
+  margin-left: -0px;
+/*  margin-right: 10px;*/
+  font-size: 40px;
+}.kuning .bok .iconBx ul li .fa-envelope-o
+{
+   margin-top:  30px;
+  margin-left:  30px;
+  margin-right: 10px;
+  margin: 0 auto;
+  font-size: 35px;
+}
+.kuning .bok .iconBx ul li .kantor {
+  margin-left: -60px;
+  font-size: 10px;
+  font-weight: 700
+}
+
+.kuning .bok .iconBx ul li .call {
+/*   margin-top: -0px;
+  margin-left: -25px;
+  margin-bottom: 40px;*/
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 700;
+/*  justify-content: center;
+  align-items: center;*/
+}
+
+.kuning .bok .iconBx ul li .contact {
+
+/*  margin-top: -0px;
+  margin-left: -25px;
+  margin-bottom: 40px;*/
+  margin: 0 auto;
+  font-size: 10px;
+  font-weight: 700;
+/*  justify-content: center;
+  align-items: center;
+*/
+}
+
+
+.kuning .bok .iconBx ul li .alamat {
+  font-size: 8px;
+  margin-top: 5px; 
+    text-align: left;
+  margin-left: -15px;
+  font-weight: 500;
+}
+
+.kuning .bok .iconBx ul li .nomor {
+  font-size: 8px;
+  margin-left: 0px;
+  font-weight: 500;
+    margin: 0 auto;
+}
+
+.kuning .bok .iconBx ul li .email {
+  font-size: 8px;
+/*  margin-bottom: 6px;
+  margin-top: 0px;
+  margin-left: 5px;*/
+  font-weight: 500;
+    margin: 0 auto;
+}
+/*biru*/
+.stats {
+  margin-top: -440px;
+}
+
+.biru {
+  background: #2E3192;
+  height: 240px;
+  width: 100%;
+}
+
+.stats .biru .sijawara {
+  position: relative;
+  margin-top: 390px;
+  margin-left: 140px;
+  padding-top: 110px;
+}
+
+.stats .biru .sijawara a {
+  color: white;
+  font-weight: 700px;
+  font-size: 20px;
+
+}
+
+.stats .biru .sijawara img {
+  position: relative;
+  max-width: 20px;
+  margin-left: 40px;
+  margin-top: -5px;
+  align-items: center;
+
+}
+/**/
+
+
+  .container .navbar-brand .d-flex.align-items-center img
+  {
+    margin-top: -45px;
+    width: 25px ;
+    height: 35px ;
+  }
+  h6 .brand-text.font-weight-primary p
+  {
+    margin-top: -15px;
+    font-size: 15px;
+  }
+    #services{
+      margin-top: -200px;
+    }
+  #services .container.services.row
+  {
+    padding: 25px;
+  }
+
+
+
+  .judul {
+    margin-top: 0px;
+  }
+
+  .stats .sijawara {
+    margin-top: -250px;
+  }
+}
+
+@media (min-width: 576px) {
+  #services .container.services.row
+  {
+    padding: 120px;
+  }
+
+  .kartu {
+    width: 600px;
+    height: 160px;
+    top: -700px;
+  }
+
+  .judul {
+    margin-top: 0px;
+  }
+
+  .stats .sijawara {
+    margin-top: -250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .kartu {
+    width: 900px;
+    height: 160px;
+    top: -700px;
+
+  }
+
+  .carousel-inner {
+    height: 700px;
+  }
+
+  .services .box {
+    width: 100%;
+  }
+}
+
+/*css hasil analisis data*/
+  @media (min-width: 992px) {
+    iframe {
+      width: 510px;
+      height: 300px;
+    }
+
+    .active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+      border-bottom: 1px solid #4dd0e1;
+      box-shadow: 0 1px 0 0 #4dd0e1;
+    }
+
+    .active-cyan input.form-control[type=text] {
+      border-bottom: 1px solid #4dd0e1;
+      box-shadow: 0 1px 0 0 #4dd0e1;
+    }
+
+    .active-cyan .fa,
+    .active-cyan-2 .fa {
+      color: #4dd0e1;
+    }
+  }

@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 1000px;
+
+}
+
+.footer {
+  background: #23267B;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 3px;
+  padding-bottom: 4px;
+
+  z-index: 999;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 13px;
+  padding-top: 15px;
+
+}
